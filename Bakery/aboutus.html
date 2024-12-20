@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ABOUT US</title>
+  <link rel="stylesheet" href="stylle.css"/>
+  
+</head>
+<?php
+include('header.php');
+include('menu.php');
+?>
+    <body>
+	  <h1>WHY GR BAKERY?</h1>
+
+    <p>
+        Introducing our freshly baked bread, the cornerstone of every meal! At GR Bakery, we knead and bake with love to bring you the finest, mouthwatering loaves.
+        Our secret ingredient? Passion! Each slice is a testament to our dedication, ensuring you savor the perfect blend of softness and crust in every bite. 
+        From classic white to whole grain goodness, we've got a loaf to match your every craving.
+        Breakfast, lunch, or dinner, our bread is your reliable, delicious companion. 
+        Taste the warmth and comfort of a home-baked slice with every sandwich or toast.
+        With GR Bakery, it's not just bread; it's a slice of life.
+    </p>
+
+    <button id="readMoreButton">Read More</button>
+
+    <script>
+        // we Add a click Read More button
+        const readMoreButton = document.getElementById('readMoreButton');
+        readMoreButton.addEventListener('click', function() {
+            alert("This is the full Introducing on GR Bakery.");
+        });
+    </script>
+<?php 
+include('footer.php');
+?>
+	
+	</body></html>
